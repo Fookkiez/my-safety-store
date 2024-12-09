@@ -40,7 +40,7 @@ export default function page({ params }: { params: any }) {
       <ShopDetailsTab />
       <Products />
       <RecentProducts />
-      <Footer1 />
+      {/* <Footer1 /> */}
     </>
   );
 }
