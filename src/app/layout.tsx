@@ -5,17 +5,20 @@ import "@/../public/scss/main.scss";
 import "photoswipe/dist/photoswipe.css";
 import "rc-slider/assets/index.css";
 import { usePathname } from "next/navigation";
-import RtlToggle from "./components/common/RtlToggle";
-import HomesModal from "./components/modals/HomesModal";
-import AskQuestion from "./components/modals/AskQuestion";
-import BlogSidebar from "./components/modals/BlogSidebar";
-import Login from "./components/modals/Login";
-import MobileMenu from "./components/modals/MobileMenu";
-import Register from "./components/modals/Register";
-import ResetPass from "./components/modals/ResetPass";
-import SearchModal from "./components/modals/SearchModal";
-import ShareModal from "./components/modals/ShareModal";
-import ScrollTop from "./components/common/ScrollTop";
+import RtlToggle from "../components/common/RtlToggle";
+import HomesModal from "../components/modals/HomesModal";
+import AskQuestion from "../components/modals/AskQuestion";
+import BlogSidebar from "../components/modals/BlogSidebar";
+import Login from "../components/modals/Login";
+import MobileMenu from "../components/modals/MobileMenu";
+import Register from "../components/modals/Register";
+import ResetPass from "../components/modals/ResetPass";
+import SearchModal from "../components/modals/SearchModal";
+import ShareModal from "../components/modals/ShareModal";
+import ScrollTop from "../components/common/ScrollTop";
+import Topbar from "@/components/headers/Topbar";
+import Header from "@/components/headers/Header";
+import Footer from "@/components/footers/Footer";
 
 export default function RootLayout({
   children,
@@ -150,7 +153,12 @@ export default function RootLayout({
             <div className="spinner"></div>
           </div>
         </div>
-        <div id="wrapper">{children}</div>
+        <div id="wrapper">
+          <Topbar />
+          <Header />
+          {children}
+          <Footer />
+        </div>
         {showChild ? (
           <>
             <RtlToggle />

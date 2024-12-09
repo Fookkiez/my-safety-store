@@ -1,18 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Topbar from "./components/headers/Topbar";
+import Topbar from "../components/headers/Topbar";
 import type { Metadata } from "next";
-import Header from "./components/headers/Header";
-import Hero from "./components/homes/Hero";
-import Marquee from "./components/homes/Marquee";
-import Categories from "./components/homes/Categories";
-import Products from "./components/homes/Products";
-import Testimonials from "./components/homes/Testimonials";
-import Lookbook from "./components/homes/Lookbook";
-import Features from "./components/homes/Features";
-import Footer from "./components/footers/Footer";
-import Collections from "./components/homes/Collections";
-import Features2 from "./components/homes/Features2";
+import Header from "../components/headers/Header";
+import Hero from "../components/homes/Hero";
+import Marquee from "../components/homes/Marquee";
+import Categories from "../components/homes/Categories";
+import Products from "../components/homes/Products";
+import Testimonials from "../components/homes/Testimonials";
+import Lookbook from "../components/homes/Lookbook";
+import Features from "../components/homes/Features";
+import Footer from "../components/footers/Footer";
+import Collections from "../components/homes/Collections";
+import Features2 from "../components/homes/Features2";
+import Map2 from "@/components/othersPages/contact/Map2";
 
 // export const metadata = {
 //   title: "Home 1 || Ecomus - Ultimate Nextjs Ecommerce Template",
@@ -26,19 +27,30 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Topbar />
-      <Header />
+
       <Hero />
       <Marquee />
       <Categories />
       <Products />
       {/* <Lookbook /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <Brands /> */}
       {/* <ShopGram /> */}
+      {/* <section id="aboutus">
+        <h1>Services Us</h1>
+        <p>Get in touch with us.</p>
+      </section> */}
+      {/* <section id="contactus">
+        <div className="tf-page-title style-2">
+          <div className="container-full">
+            <div className="heading text-center">Contact Us</div>
+          </div>
+        </div>
+        <Map2 />
+      </section> */}
       <Features />
       <Features2 />
-      <Footer />
+      {/* <Footer />   */}
     </>
 
   );

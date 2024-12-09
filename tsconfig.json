@@ -22,6 +22,6 @@
     },
     "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/modals/ToolbarBottom.jsx", "src/app/components/shopCards/Productcart4.tsx", "src/app/components/footers/Footer3.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/**/*.ts"],
   "exclude": ["node_modules"]
 }
