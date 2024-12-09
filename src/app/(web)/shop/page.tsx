@@ -5,8 +5,8 @@ import FilterSidebar from "@/components/shop/FilterSidebar";
 import React from "react";
 
 export const metadata = {
-  title: "Shop Filter Sidebar || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Shop Filter Sidebar || xxxxxx",
+  description: "xxxxxx",
 };
 export default function page() {
   return (

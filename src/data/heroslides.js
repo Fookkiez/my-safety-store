@@ -209,7 +209,7 @@ export const slides6 = [
   {
     imgSrc: "/images/slider/slide-hp-1.jpg",
     alt: "hp-slideshow-01",
-    heading: "Ecomus <br />Wireless Headphones",
+    heading: "My store <br />Wireless Headphones",
     subheading: "ICONIC DESIGN AND BRILLIANT ACOUSTICS",
   },
   {
@@ -755,7 +755,7 @@ export const sliderData4 = [
   {
     imgSrc: "/images/slider/accessories2_slideshow2.jpg",
     alt: "fashion-slideshow",
-    heading: "Ecomus Docking",
+    heading: "My store Docking",
     description: "Fast wireless charging on-the-go.",
     btnText: "Shop collection",
   },
@@ -776,7 +776,7 @@ export const sliderData4 = [
   {
     imgSrc: "/images/slider/accessories2_slideshow2.jpg",
     alt: "fashion-slideshow",
-    heading: "Ecomus Docking",
+    heading: "My store Docking",
     description: "Fast wireless charging on-the-go.",
     btnText: "Shop collection",
   },

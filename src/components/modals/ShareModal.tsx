@@ -53,7 +53,7 @@ export default function ShareModal() {
               <fieldset>
                 <input
                   type="text"
-                  defaultValue="https://themesflat.co/html/ecomus/"
+                  defaultValue="https://themesflat.co/html/My store/"
                   tabIndex={0}
                   aria-required="true"
                 />

@@ -1,12 +1,13 @@
 // import Footer1 from "@/components/footers/Footer1";
 // import Header2 from "@/components/headers/Header2";
 import FilterSidebar from "@/components/shop/FilterSidebar";
+import { Metadata } from "next";
 
 import React from "react";
 
-export const metadata = {
-  title: "Shop Filter Sidebar || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+export const metadata: Metadata = {
+  title: "Shop Filter Sidebar || xxxx",
+  description: "xxxxx - Ultimate Nextjs Ecommerce Template",
 };
 export default function page() {
   return (

@@ -5,8 +5,8 @@ import Map2 from "@/components/othersPages/contact/Map2";
 import React from "react";
 
 export const metadata = {
-  title: "Contact 2 || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Contact us || xxxxxx",
+  description: "xxxxxx",
 };
 export default function page() {
   return (
